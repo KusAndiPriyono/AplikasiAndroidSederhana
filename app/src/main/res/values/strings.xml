@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">AplikasiAndroidSederhana</string>
+
+    <string name="heroes_name">Hero Name</string>
+    <string name="detail">Detail</string>
+    <string name="heroes_element">Element</string>
+    <string name="about_me">About Me</string>
+    <string name="name_element">Nama Element</string>
+    <string name="heroes_build">Build</string>
+    <string name="kategori_build">Kategori Build</string>
+    <string name="heroes_skill">Skill</string>
+    <string name="normal_attack">Normal Attack</string>
+    <string name="description">Description</string>
+    <string name="background">Background</string>
+    <string name="profile_name">Kus Andi Priyono</string>
+    <string name="profile_email">andipriyono94@gmail.com</string>
+    <string name="account_github">github.com/KusAndiPriyono</string>
+
+    <string-array name="data_names">
+        <item>Ayaka</item>
+        <item>Ayato</item>
+        <item>Cyno</item>
+        <item>Diluc</item>
+        <item>Itto</item>
+        <item>Jean</item>
+        <item>Kazuha</item>
+        <item>Raiden</item>
+        <item>Xiao</item>
+        <item>Zhongli</item>
+    </string-array>
+
+    <string-array name="data_elements">
+        <item>Cryo</item>
+        <item>Hydro</item>
+        <item>Electro</item>
+        <item>Pyro</item>
+        <item>Geo</item>
+        <item>Anemo</item>
+        <item>Anemo</item>
+        <item>Electro</item>
+        <item>Anemo</item>
+        <item>Geo</item>
+    </string-array>
+
+    <string-array name="data_builds">
+        <item>Main DPS</item>
+        <item>Main DPS</item>
+        <item>Sub DPS</item>
+        <item>Main DPS</item>
+        <item>Main DPS</item>
+        <item>Support</item>
+        <item>Support</item>
+        <item>Sub DPS</item>
+        <item>Main DPS</item>
+        <item>Sub Burst</item>
+    </string-array>
+
+    <string-array name="data_skills">
+        <item>Normal Attack: Kamisato</item>
+        <item>Normal Attack: Kamisato</item>
+        <item>Normal Attack: Watasumi</item>
+        <item>Normal Attack: Tempered</item>
+        <item>Normal Attack: Oni Slayer</item>
+        <item>Normal Attack: Favonius Bladework</item>
+        <item>Normal Attack: Chihayaburu</item>
+        <item>Normal Attack: Secret</item>
+        <item>Normal Attack: Whirlwind Thrust</item>
+        <item>Normal Attack: Rain of Stone</item>
+    </string-array>
+
+    <string-array name="data_descriptions">
+        <item>Daughter of the Yashiro Commissions Kamisato Clan. Dignified and elegant, as well as wise and strong.</item>
+        <item>The young but highly accomplished head of the Yashiro Commissions Kamisato Clan. Cultured and polite, he is a man of many ways and means.</item>
+        <item>The General Mahamatra in charge of supervising the researchers of the Akademiya. It is said that when he gets down to work, the General Mahamatra is even more efficient than the \"Great Vayuvyastra\" made by the Kshahrewar.</item>
+        <item>The tycoon of a winery empire in Mondstadt, unmatched in every possible way.</item>
+        <item>The first and greatest head of the Arataki Gang, famed throughout Inazuma Citys Hanamizaka… Wait, what? Youve never heard of them? Are you trying to be funny here?</item>
+        <item>The righteous and rigorous Dandelion Knight, and Acting Grand Master of Mondstadts Knights of Favonius</item>
+        <item>A wandering samurai from Inazuma who is currently with Liyues Crux Fleet. A gentle and carefree soul whose heart hides a great many burdens from the past.</item>
+        <item>Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.</item>
+        <item>A yaksha adeptus who defends Liyue. Also heralded as the Conqueror of Demons and Vigilant Yaksha.</item>
+        <item>A mysterious expert contracted by the Wangsheng Funeral Parlor. Extremely knowledgeable in all things.</item>
+    </string-array>
+
+    <integer-array name="data_images">
+        <item>@drawable/ayaka</item>
+        <item>@drawable/ayato</item>
+        <item>@drawable/cyno</item>
+        <item>@drawable/diluc</item>
+        <item>@drawable/itto</item>
+        <item>@drawable/jean</item>
+        <item>@drawable/kazuha</item>
+        <item>@drawable/raiden</item>
+        <item>@drawable/xiao</item>
+        <item>@drawable/zhongli</item>
+    </integer-array>
+
+</resources>

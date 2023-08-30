@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/iv_item_image"
+            android:layout_width="90dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars"
+            android:contentDescription="@string/heroes_name" />
+
+        <TextView
+            android:id="@+id/tv_hero_name"
+            style="@style/TextHeroName"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@id/iv_item_image"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue_dark"
+            tools:text="@string/heroes_name"/>
+
+        <TextView
+            android:id="@+id/tv_item_element"
+            style="@style/TextHeroName"
+            android:layout_below="@+id/tv_hero_name"
+            android:layout_toEndOf="@+id/iv_item_image"
+            android:textColor="@color/black"
+            tools:text="@string/heroes_element"/>
+
+        <Button
+            android:id="@+id/btn_detail"
+            style="@style/ButtonDetail"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/iv_item_image"
+            android:text="@string/detail"
+            android:textSize="12sp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
